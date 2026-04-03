@@ -13,5 +13,4 @@ def canUnlockAll(boxes: list[list]) -> bool:
             for box in boxes[key]:
                 keys.append(box)
 
-    print(opened)
     return len(opened) == len(boxes)
