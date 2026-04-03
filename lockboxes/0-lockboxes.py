@@ -2,7 +2,8 @@
 """Lockboxes challenge"""
 
 
-def canUnlockAll(boxes):
+def canUnlockAll(boxes: list[list]) -> bool:
+    """Determines if all boxes can be opened"""
     opened = set([0])
     keys = boxes[0]
     while keys:
